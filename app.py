@@ -55,12 +55,12 @@ def verify(number):
         
         elif number[5:8] == fPN[5:8]:
             result = '六獎 2百元'
-    #print("六獎 2百元")
+            #print("六獎 2百元")
 
-for aSPN in addSixPrizeNumbers:
-    if number[5:8] == aSPN:
+    for aSPN in addSixPrizeNumbers:
+        if number[5:8] == aSPN:
         result = '增開六獎 2百元'
-    #print("增開六獎 2百元")
+        #print("增開六獎 2百元")
     
     return result
 
