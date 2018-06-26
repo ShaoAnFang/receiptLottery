@@ -1,1 +1,1 @@
-# Anan-python-line-bot
+# Receipt Lottery
