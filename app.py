@@ -104,7 +104,7 @@ def apii(date,number):
     
     addSixPrize = soup.find('th', id = "addSixPrize").text
     #print(addSixPrize)
-    addSixPrizeNumber = soup.find('td', class_ = "number", headers = "addSixPrize").text.strip()
+    addSixPrizeNumbers = soup.find('td', class_ = "number", headers = "addSixPrize").text.strip()
     #print(addSixPrizeNumber)
     r = verify(number)
     g = dict()
